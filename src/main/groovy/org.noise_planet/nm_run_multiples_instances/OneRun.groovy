@@ -90,14 +90,14 @@ class OneRun {
 
         String shpPath = rootPath2 + "/InputFiles/"
         // Paramètres de propagation
-        int reflexion_order = 1
+        int reflexion_order = 5
         double max_src_dist = 1000
         double max_ref_dist = 1000
         double wall_alpha = 0.1
         int n_thread = 10
 
-        boolean compute_vertical_diffraction = false
-        boolean compute_horizontal_diffraction = false
+        boolean compute_vertical_diffraction = true
+        boolean compute_horizontal_diffraction = true
 
         // rose of favourable conditions
         //double[] favrose = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
